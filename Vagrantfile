@@ -8,7 +8,5 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision "shell", inline: <<-SHELL
     dnf -y install podman
-    systemctl enable podman.socket --user
-    systemctl start podman.socket --user
   SHELL
 end
