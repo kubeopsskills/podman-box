@@ -24,3 +24,11 @@ $ ./install-podman-box.sh
 ```
 
 Then, have fun with Podman!
+
+## Uninstalling the Podman Box
+
+You can simply delete the box with "vagrant destroy" command.
+
+```sh
+$ vagrant destroy
+```
