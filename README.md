@@ -2,6 +2,10 @@
 
 Podman Box helps you quickly start with [Podman](https://podman.io/) on [macOS Big Sur](https://www.apple.com/macos/big-sur/) and macOS newer version onward just a few minutes.
 
+## Easy Install with make
+- install with `make install`
+- uninstall with `make uninstall`
+
 ## Prerequisites
 
 To launch the Podman Box, you're required to install the following prerequisites dependencies:
